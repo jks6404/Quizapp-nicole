@@ -21,6 +21,7 @@ background-color: rgb(159, 198, 18);
     background-color: #6514a3; /* Background color for the title box */
     color: #030202; /* Text color for the title */
     padding: 40px;
+    background-image: url("./back.avif");
 }
 
 .quiz-title h1 {
@@ -52,7 +53,8 @@ background-color: rgb(159, 198, 18);
   }
   .buttons-container button{
     color: white;
-    background-color: black;
+    border-radius:  12px;
+    background-color: rgb(32, 97, 171);
     width: 150px;
     height: 40px;
     border: none;

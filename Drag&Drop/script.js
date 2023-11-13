@@ -73,5 +73,6 @@ function checkAllMatched() {
 
 exitButton.addEventListener('click', () => {
     // Add logic to navigate to the next page or perform any other actions
-    window.location.href = '../startquiz/index.html'; // Replace '../startquiz/index.html' with the actual URL of your next page
+    window.location.href = '../startquiz/index.html'; 
+    // Replace '../startquiz/index.html' with the actual URL of your next page
 });

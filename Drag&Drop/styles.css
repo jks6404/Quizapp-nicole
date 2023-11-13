@@ -14,6 +14,7 @@ h1{
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
+    background-color: #cccccc;
 }
 
 .drop-area {
@@ -44,12 +45,15 @@ h1{
 
 .drop-area .target {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
     align-items: center;
     width: 100px;
     height: 100px;
-    border: 2px solid #ccc;
+    border: 2px solid #0e0d0d;
     padding: 10px;
+    margin: 10px;
     text-align: center;
 }
 

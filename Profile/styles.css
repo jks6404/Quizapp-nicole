@@ -29,11 +29,12 @@
     z-index: 100;
     top: 0;
   
-    background-color: black;
+    background-color: rgb(177, 164, 21);
     border-bottom: 1px solid white;
     padding: 1rem;
     font-size: 1rem;
   }
+  
   
   nav .brand {
     font-size: 1.5rem;
@@ -45,7 +46,7 @@
   }
 
   .container{
-    padding: 40px;
+    padding: 40px 300px ;
 }
 
 .inputs{
@@ -56,6 +57,7 @@
 .inputs input{
     height: 40px;
     padding: 10px;
+    border-radius: 0cqb;
 }
 
 button{
@@ -78,11 +80,15 @@ button{
   color: rgb(8, 113, 8);
   font-weight: 600;
 }
-
+button{
+  border-radius:  12px;
+  background-color: rgb(32, 97, 171);
+}
 .buttons{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 #message{

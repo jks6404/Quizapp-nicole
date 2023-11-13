@@ -28,11 +28,12 @@ body {
     z-index: 100;
     top: 0;
   
-    background-color: rgb(174, 205, 18);
+    background-color: rgb(177, 164, 21);
     border-bottom: 1px solid white;
     padding: 1rem;
     font-size: 1rem;
   }
+  
   
   nav .brand {
     font-size: 1.5rem;
@@ -57,12 +58,14 @@ body {
 .inputs input{
     height: 30px;
     width: 400px;
+    border-radius: 0cqb;
     padding: 10px;
 }
 button{
     margin-top: 10px;
     color: white;
-    background-color: black;
+    border-radius:  12px;
+    background-color: rgb(32, 97, 171);
     width: 150px;
     height: 40px;
     border: none;
