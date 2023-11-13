@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #accf12; /* Background color for the body */
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.instruction {
+    text-align: center;
+    background-color: #3498db; /* Background color for the instruction */
+    color: #d62929; /* Text color for the instruction */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow effect */
+    margin-bottom: 20px; /* Optional: Add some margin between instruction and sections */
+}
+
+.sections {
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.section {
+    flex: 1;
+    background-color: #02161b; /* Background color for each section */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow effect */
+    margin: 50px; /* Optional: Add some margin between sections */
+    
+}
+
+.section1, .section2{
+ background-color: #bcd8de;
+ padding-left: 2%;
+}
+    
+    h1, h2 {
+    color: #681d1d; /* Heading color */
+}
+h4{
+    color: #681d1d
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0b0f11; /* Button background color */
+    color: #25b37c; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9; /* Button background color on hover */
+}
+
+#exit-button {
+    display: none;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
